@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import './css/common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import RestPanel from './container/RestPanel';
+import MainPanel from './container/MainPanel';
+import LogPanel from './container/LogPanel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="screen">
+      <RestPanel />
+      <MainPanel />
+      <LogPanel />
     </div>
   );
 }

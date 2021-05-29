@@ -1,0 +1,31 @@
+.options-panel {
+  display: flex;
+  justify-content: space-between;
+  width: 45.7%;
+  height: 100%;
+  border-radius: 0 0 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #dbdbdb;
+}
+.left-content, .right-content {
+  display: flex;
+  flex-direction: row;
+}
+.left-content > *:hover, .right-content > *:hover {
+  color: #000;
+}
+.inventory, .upgrade, .save, .load, .config {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 43px;
+  height: 55px;
+  margin: auto 8px auto 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.15s;
+}
