@@ -1,9 +1,10 @@
 .normal-char-sheet {
     width: 160px;
     height: 205px;
-    border-radius: 10px;
-    border: 2px solid;
     margin-bottom: 15px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
 }
 .normal-char-name {
     width: 100%;

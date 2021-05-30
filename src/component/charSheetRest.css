@@ -6,7 +6,8 @@
     width: 100%;
     height: 32px;
     border-radius: 8px;
-    border: 2px solid;
+    border-width: 2px;
+    border-style: solid;
 }
 .rest-order-image {
     width: 30px;

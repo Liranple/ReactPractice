@@ -1,5 +1,5 @@
 .log-panel {
-  height: 100vh;
-  width: 31.7vw;
+  width: 609px;
+  min-width: 609px;
   background-color: #817c7b;
 }

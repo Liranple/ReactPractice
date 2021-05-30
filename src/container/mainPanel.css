@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
-  width: 47vw;
+  height: 937px;
+  min-height: 937px;
+  width: 902px;
+  min-width: 902px;
 }

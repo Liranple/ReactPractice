@@ -14,15 +14,15 @@ function CharSheetNormal() {
         <div className="normal-char-stat1">
           <label>
             <FontAwesomeIcon icon="heart" className="normal-hp-icon cc" />
-            <input type="number" value="500" max="500" min="0" className="normal-char-hp" disabled="true" />
+            <input type="number" value="500" max="500" min="0" className="normal-char-hp" disabled={true} />
           </label>
           <label>
             <FontAwesomeIcon icon="fist-raised" className="normal-atk-icon cc" />
-            <input type="number" value="20" min="0" className="normal-char-atk" disabled="true" />
+            <input type="number" value="20" min="0" className="normal-char-atk" disabled={true} />
           </label>
           <label>
             <FontAwesomeIcon icon="shield-alt" className="normal-def-icon cc" />
-            <input type="number" value="10" min="0" className="normal-char-def" disabled="true" />
+            <input type="number" value="10" min="0" className="normal-char-def" disabled={true} />
           </label>
         </div>
         <div className="normal-char-stat2 cc">
