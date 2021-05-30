@@ -1,24 +1,24 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { 
-    faShoppingBag, 
-    faHammer,
-    faCloudUploadAlt,
-    faCloudDownloadAlt,
-    faCog,
-    faHeartbeat,
-    faHeart,
-    faSkull,
-    faDiceOne,
-    faDiceTwo,
-    faDiceThree,
-    faSortUp,
-    faSortDown,
+import {
     faCheckCircle,
-    faPlusSquare,
-    faMinusSquare,
+    faCloudDownloadAlt,
+    faCloudUploadAlt,
+    faCog,
+    faDiceOne,
+    faDiceThree,
+    faDiceTwo,
     faFistRaised,
+    faHammer,
+    faHeart,
+    faHeartbeat,
+    faMinusSquare,
+    faPlusSquare,
     faShieldAlt,
-    faUtensils
+    faShoppingBag,
+    faSkull,
+    faSortDown,
+    faSortUp,
+    faUtensils,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faShoppingBag);

@@ -1,34 +1,34 @@
 * {
-  box-sizing: border-box;
-  user-select: none;
+    box-sizing: border-box;
+    user-select: none;
 }
 *:focus {
-  outline: none;
+    outline: none;
 }
 .screen {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px;
-  width: 100%;
-  height: 100%;
-  background-color: #a5a1a0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0px;
+    background-color: #a5a1a0;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    margin: 0;
+    -webkit-appearance: none;
 }
 @font-face {
-  font-family: 'S-CoreDream-4';
-  src: url("./font/SCDream4.otf");
+    font-family: 'S-CoreDream-4';
+    src: url('./font/SCDream4.otf');
 }
 @font-face {
-  font-family: 'S-CoreDream-6';
-  src: url("./font/SCDream6.otf");
+    font-family: 'S-CoreDream-6';
+    src: url('./font/SCDream6.otf');
 }
 @font-face {
-  font-family: 'S-CoreDream-8';
-  src: url("./font/SCDream8.otf");
+    font-family: 'S-CoreDream-8';
+    src: url('./font/SCDream8.otf');
 }
 /* @font-face {
   font-family: 'HeirofLightBold';

@@ -1,35 +1,34 @@
 .rest-panel {
-  display: flex;
-  flex-direction: column;
-  padding: 12px;
-  height: 100vh;
-  width: 20vw;
-  background-color: #dbdbdb;
-
+    display: flex;
+    width: 20vw;
+    height: 100vh;
+    flex-direction: column;
+    padding: 12px;
+    background-color: #dbdbdb;
 }
 .heal-btns {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: "S-CoreDream-6";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'S-CoreDream-6';
 }
 .heal-btns > * {
-  padding: 2px 6px 2px 6px;
-  font-size: 16px;
-  font-weight: bold;
-  width: 55px;
-  height: 32px;
+    width: 55px;
+    height: 32px;
+    padding: 2px 6px 2px 6px;
+    font-size: 16px;
+    font-weight: bold;
 }
 .sort-bars {
-  display: flex;
-  align-items: center;
-  margin-left: 4px;
-  margin-top: 4px;
-  height: 35px;
-  font-size: 22px;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 4px;
+    font-size: 22px;
 }
 .rest-chars {
-  display: flex;
-  flex-direction: column;
-  margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
 }

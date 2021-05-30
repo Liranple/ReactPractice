@@ -1,26 +1,28 @@
-input[type="checkbox"] {
-  display: none;
+input[type='checkbox'] {
+    display: none;
 }
 .mon-panel {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 53%;
-  height: 100%;
-  border-radius: 0 0 10px 10px;
-  padding-left: 12px;
-  padding-right: 12px;
-  color: #555;
-  background-color: #dbdbdb;
-  font-size: 20px;
+    display: flex;
+    width: 53%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: #dbdbdb;
+    border-radius: 0 0 10px 10px;
+    color: #555;
+    font-size: 20px;
 }
-.mon-health-point, .mon-heal-point, option {
-  width: 105px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  font-size: 19px;
-  font-family: "S-CoreDream-6";
+.mon-health-point,
+.mon-heal-point,
+option {
+    width: 105px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'S-CoreDream-6';
+    font-size: 19px;
 }
 .mon-healing {
-  color: rgb(219, 40, 40);
+    color: rgb(219, 40, 40);
 }

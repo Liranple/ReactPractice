@@ -1,56 +1,56 @@
 .rest-char-sheet {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 6px;
     width: 100%;
     height: 32px;
-    border-radius: 8px;
+    flex-direction: row;
+    align-items: center;
     border: 2px solid;
+    margin-bottom: 6px;
+    border-radius: 8px;
 }
 .rest-order-image {
     width: 30px;
     height: 100%;
-    border-radius: 6px 0 0 6px;
-    background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6px 0 0 6px;
 }
 .rest-char-name {
-    border: none;
-    padding: 4px 5px 4px 2px;
     width: 150px;
     height: 100%;
+    padding: 4px 5px 4px 2px;
+    border: none;
+    color: #fff;
+    font-family: 'S-CoreDream-4';
     font-size: 15px;
-    font-family: "S-CoreDream-4";
     letter-spacing: -1px;
     text-align: center;
-    color: #fff;
 }
 .rest-hp-icon {
     margin-left: 7px;
     font-size: 21px;
 }
 .rest-char-hp {
-    border: none;
-    font-family: "S-CoreDream-8";
-    letter-spacing: -1px;
-    font-size: 20px;
-    margin-left: 2px;
-    height: 100%;
     width: 63px;
+    height: 100%;
+    border: none;
+    margin-left: 2px;
     background-color: transparent;
+    font-family: 'S-CoreDream-8';
+    font-size: 20px;
+    letter-spacing: -1px;
     pointer-events: none;
     user-select: none;
 }
 .rest {
-    height: 74%;
     width: 75px;
-    border: none;
+    height: 74%;
     padding: 0;
-    font-size: 14px;
-    font-family: "S-CoreDream-6";
-    border-radius: 5px;
+    border: none;
     background-color: #48b700;
+    border-radius: 5px;
     color: #fff;
+    font-family: 'S-CoreDream-6';
+    font-size: 14px;
 }

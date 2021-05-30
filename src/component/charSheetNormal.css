@@ -1,31 +1,31 @@
 .normal-char-sheet {
     width: 160px;
     height: 205px;
-    border-radius: 10px;
     border: 2px solid;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 .normal-char-name {
     width: 100%;
     height: 30px;
     border: none;
     border-radius: 7px 7px 0 0;
+    color: #fff;
+    font-family: 'S-CoreDream-4';
     font-size: 15px;
-    font-family: "S-CoreDream-4";
     letter-spacing: -1px;
     text-align: center;
-    color: #fff;
 }
 .char-image {
     position: relative;
     width: 100%;
     height: 115px;
+    border-bottom: 2px solid;
     background-color: #fff;
-    background-image: url("../image/char1.png");
-    background-size: 100%;
+    background-image: url('../image/char1.png');
     background-position: 0 -25px;
     background-repeat: no-repeat;
-    border-bottom: 2px solid;
+    background-size: 100%;
 }
 .normal-order-image {
     position: absolute;
@@ -33,9 +33,9 @@
     right: 3px;
     width: 30px;
     height: 30px;
-    background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 .normal-char-info {
     padding: 2px 6px 2px 6px;
@@ -47,26 +47,29 @@
 }
 .normal-char-stat1 {
     display: flex;
-    align-items: center;
     height: 25px;
+    align-items: center;
     margin-bottom: 2px;
 }
 .normal-char-stat1 > label > input {
     border: none;
-    font-family: "S-CoreDream-8";
-    letter-spacing: -1px;
-    font-size: 17px;
     background-color: transparent;
+    font-family: 'S-CoreDream-8';
+    font-size: 17px;
+    letter-spacing: -1px;
     pointer-events: none;
     user-select: none;
 }
-.normal-hp-icon, .normal-atk-icon, .normal-def-icon {
+.normal-hp-icon,
+.normal-atk-icon,
+.normal-def-icon {
     font-size: 18px;
 }
 .normal-char-hp {
     width: 41px;
 }
-.normal-char-atk, .normal-char-def {
+.normal-char-atk,
+.normal-char-def {
     width: 30px;
 }
 .normal-char-stat2 {
@@ -76,17 +79,17 @@
     padding-right: 2px;
 }
 .normal-char-stat2 > button {
-    height: 21px;
     width: 52px;
-    border: none;
+    height: 21px;
     padding: 0;
-    font-size: 14px;
-    font-family: "S-CoreDream-6";
-    border-radius: 5px;
+    border: none;
     background-color: #c02b2b;
+    border-radius: 5px;
     color: #fff;
+    font-family: 'S-CoreDream-6';
+    font-size: 14px;
 }
 .food-buff {
-    font-size: 20px;
     margin-left: 3px;
+    font-size: 20px;
 }
