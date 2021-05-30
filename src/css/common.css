@@ -1,63 +1,23 @@
-.cc {
-    color: #8f006f;
-}
-.cbc {
-    background-color: #8f006f;
-}
-.csc {
-    background-color: #d8bccc;
-}
-.cb {
-    border-color: #8f006f;
-}
-.ci {
-    background-image: url('../image/ci.png');
-}
+.cc {color: #8f006f}
+.cbc {background-color: #8f006f}
+.csc {background-color: #d8bccc}
+.cb {border-color: #8f006f}
+.ci {background-image: url("../image/ci.png")}
 
-.gc {
-    color: #ffa600;
-}
-.gbc {
-    background-color: #ffa600;
-}
-.gsc {
-    background-color: #d8d3bc;
-}
-.gb {
-    border-color: #ffa600;
-}
-.gi {
-    background-image: url('../image/gi.png');
-}
+.gc {color: #ffa600}
+.gbc {background-color: #ffa600}
+.gsc {background-color: #d8d3bc}
+.gb {border-color: #ffa600}
+.gi {background-image: url("../image/gi.png")}
 
-.pc {
-    color: #004eb8;
-}
-.pbc {
-    background-color: #004eb8;
-}
-.psc {
-    background-color: #bcc5d8;
-}
-.pb {
-    border-color: #004eb8;
-}
-.pi {
-    background-image: url('../image/pi.png');
-}
+.pc {color: #004eb8}
+.pbc {background-color: #004eb8}
+.psc {background-color: #bcc5d8}
+.pb {border-color: #004eb8}
+.pi {background-image: url("../image/pi.png")}
 
-.wc {
-    color: #2a5f00;
-}
-.wbc {
-    background-color: #2a5f00;
-}
-.wsc {
-    background-color: #c8d8bc;
-}
-.wb {
-    border-color: #2a5f00;
-}
-.wi {
-    background-image: url('../image/wi.png');
-}
+.wc {color: #2a5f00}
+.wbc {background-color: #2a5f00}
+.wsc {background-color: #c8d8bc}
+.wb {border-color: #2a5f00}
+.wi {background-image: url("../image/wi.png")}

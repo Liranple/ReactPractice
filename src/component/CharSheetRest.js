@@ -8,14 +8,7 @@ function CharSheetRest() {
             <div className="rest-order-image cbc ci"></div>
             <input type="text" className="rest-char-name cbc" />
             <FontAwesomeIcon icon="heart" className="rest-hp-icon cc" />
-            <input
-                type="number"
-                value="500"
-                max="500"
-                min="0"
-                className="rest-char-hp"
-                disabled="true"
-            />
+            <input type="number" value="500" max="500" min="0" className="rest-char-hp" disabled="true" />
             <button className="rest">휴식중</button>
         </div>
     );
